@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    background-color: #fff;
+}
+.container{
+    max-width: 190rem;
+    /* background-color: red;
+    padding:1.6rem 3.2rem */
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:black;
+    /* color : #0e141b */
+}
+@keyframes delayedRenderIcon {
+    0% {
+        transform: rotate(0);
+     
+    }
+    50%{
+        transform: rotate(-22.5deg);
+   
+    }
+    100% {
+        transform: rotate(-45deg);
+
+    }
+  }
+  @keyframes delayedRenderBright {
+    0% {
+        transform: rotate(0);
+     
+    }
+    50%{
+        transform: rotate(22.5deg);
+   
+    }
+    100% {
+        transform: rotate(45deg);
+
+    }
+  }
+
+.custom-icon {
+    
+   
+    animation-name: delayedRenderIcon;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+   
+  }
+  
+  .bright-icon{
+    animation-name: delayedRenderBright;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+  }
