@@ -4,6 +4,7 @@ import "./index.css";
 import { MdOutlineNightlight, MdLightMode } from "react-icons/md";
 import logo_bright from "./imgs/A.png";
 import logo_dark from "./imgs/A2.png";
+import Hero from "./Hero/Hero";
 function App() {
   const navLinks = ["Home", "About", "Posts", "Contact"];
   const [backgroundColor, setBackgroundcolor] = useState(false);
@@ -49,6 +50,7 @@ function App() {
           logo={logo_bright}
         />
       )}
+      <Hero />
     </div>
   );
 }
