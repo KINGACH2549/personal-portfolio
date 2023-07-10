@@ -38,14 +38,15 @@
 }
 .social-icon-link{
     display: inline-block;
+    transition: transform 450ms ease-out;
 }
 .social-icon{
     width: 60px;
     height: 30px;
-    
+    cursor: pointer;
     transition: transform 450ms ease-out;
 }
-.social-icon:hover{
+.social-icon-link:hover{
     transform: translateY(-5px);
     cursor: pointer;
 }
