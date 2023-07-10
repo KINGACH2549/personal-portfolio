@@ -6,10 +6,11 @@
     top:0;
     left:0;
     width: 100%;
-    z-index: 999;
+    /* z-index: 999; */
    /* background: linear-gradient( hsla(200deg, 100%, 85%, 0.1),hsla(200deg, 100%, 85%, 0)); */
     padding:1.6rem 3.2rem;
     padding-bottom: 1.4rem;
+   
     /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); */
 }
 
