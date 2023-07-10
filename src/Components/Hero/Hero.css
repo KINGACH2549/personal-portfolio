@@ -6,8 +6,8 @@
         animation: lottieAnimation 1s ease forwards;
     margin:2rem;
     margin-top: 6rem;
-    padding: 3rem;
-    padding-top: 6rem;
+    padding: 2rem;
+    /* padding-top: 4rem; */
     display: flex;
     align-items: center;
     gap:10rem;
@@ -69,6 +69,7 @@
   }
   
   .lottie {
+       
         opacity: 0;
         animation: lottieAnimation 1s ease forwards;
       
