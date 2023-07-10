@@ -1,0 +1,51 @@
+
+.hero-container{
+    /* background-color: red; */
+    /* opacity: 0; */
+    margin:2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap:10rem
+
+}
+.intro-container{
+  
+      font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+      line-height: 3.4rem;
+      align-self: flex-start;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #222;
+ 
+}
+.intro-name{
+    font-size:5rem ;
+    line-height: 6rem;
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+}
+.intro-hello{
+    margin-left: 0.5rem;
+}
+.social-icons-hero{
+    align-self: flex-start;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.social-icon-link{
+    display: inline-block;
+}
+.social-icon{
+    width: 60px;
+    height: 30px;
+    
+    transition: transform 450ms ease-out;
+}
+.social-icon:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}

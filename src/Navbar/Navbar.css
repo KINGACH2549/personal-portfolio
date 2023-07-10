@@ -2,6 +2,7 @@
     /* background-color: green; */
 
     background: color #848484; 
+    /* position: fixed; */
    /* background: linear-gradient( hsla(200deg, 100%, 85%, 0.1),hsla(200deg, 100%, 85%, 0)); */
     padding:1.6rem 3.2rem;
     padding-bottom: 1.4rem;
@@ -99,7 +100,7 @@
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
- 
+    
     
 }
 
