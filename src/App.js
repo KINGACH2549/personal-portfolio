@@ -1,12 +1,10 @@
 import { useState } from "react";
-import Navbar from "./Navbar/Navbar";
+import HeroPage from "./Pages/HeroPage";
+import NavPage from "./Pages/NavbarPage";
 import "./index.css";
-import { MdOutlineNightlight, MdLightMode } from "react-icons/md";
-import logo_bright from "./imgs/A.png";
-import logo_dark from "./imgs/A2.png";
-import Hero from "./Hero/Hero";
+
 function App() {
-  const navLinks = ["Home", "About", "Posts", "Contact"];
+  //background color change from top  most parent element
   const [backgroundColor, setBackgroundcolor] = useState(false);
   const handleBackgroundColor = () => {
     if (!backgroundColor) {
@@ -18,39 +16,11 @@ function App() {
   };
   return (
     <div className="container">
-      {backgroundColor ? (
-        <Navbar
-          navLinks={navLinks}
-          changeBackgroundColor={handleBackgroundColor}
-          color="white"
-          themeIcon={
-            <MdOutlineNightlight
-              className="custom-icon"
-              style={{
-                width: "60px",
-                height: "30px",
-                color: "white",
-              }}
-            />
-          }
-          backgroundColor="hsl(210deg, 30%, 8%)"
-          logo={logo_dark}
-        />
-      ) : (
-        <Navbar
-          navLinks={navLinks}
-          changeBackgroundColor={handleBackgroundColor}
-          color="#222"
-          themeIcon={
-            <MdLightMode
-              className="bright-icon"
-              style={{ width: "60px", height: "30px" }}
-            />
-          }
-          logo={logo_bright}
-        />
-      )}
-      <Hero />
+      <NavPage
+        backgroundColor={backgroundColor}
+        handleBackgroundColor={handleBackgroundColor}
+      />
+      <HeroPage backgroundColor={backgroundColor} />
     </div>
   );
 }

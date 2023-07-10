@@ -2,7 +2,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import "./Hero.css";
 import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 
-function Hero() {
+function Hero({ color }) {
   return (
     <div className="hero-container">
       <Player
@@ -12,7 +12,7 @@ function Hero() {
         style={{ height: "600px", width: "600px", borderRadius: "50%" }}
         background="rgb(43, 119, 191)"
       />
-      <div className="intro-container">
+      <div className="intro-container" style={{ color }}>
         <p className="intro-hello"> Hello I am</p>
         <p className="intro-name">
           Achintya <br></br>Mishra
@@ -26,7 +26,7 @@ function Hero() {
           rel="noreferrer"
           className="social-icon-link"
         >
-          <SiGithub className="social-icon" />
+          <SiGithub className="social-icon" style={{ color }} />
         </a>
 
         <a
@@ -35,7 +35,7 @@ function Hero() {
           rel="noreferrer"
           className="social-icon-link"
         >
-          <SiLinkedin className="social-icon" />
+          <SiLinkedin className="social-icon" style={{ color }} />
         </a>
         <a
           href="https://github.com/KINGACH2549"
@@ -43,7 +43,7 @@ function Hero() {
           rel="noreferrer"
           className="social-icon-link"
         >
-          <SiInstagram className="social-icon" />
+          <SiInstagram className="social-icon" style={{ color }} />
         </a>
       </div>
     </div>
