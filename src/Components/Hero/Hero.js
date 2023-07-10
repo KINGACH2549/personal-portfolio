@@ -7,10 +7,16 @@ function Hero({ color }) {
     <div className="hero-container">
       <Player
         src="https://assets8.lottiefiles.com/packages/lf20_gljfnvqz.json"
+        // className=".lottie"
         loop
         autoplay
-        style={{ height: "600px", width: "600px", borderRadius: "50%" }}
+        style={{
+          height: "600px",
+          width: "600px",
+          borderRadius: "50%",
+        }}
         background="rgb(43, 119, 191)"
+        className="lottie"
       />
       <div className="intro-container" style={{ color }}>
         <p className="intro-hello"> Hello I am</p>
