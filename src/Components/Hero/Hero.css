@@ -1,12 +1,16 @@
 
 .hero-container{
     /* background-color: red; */
-    /* opacity: 0; */
+    /* opacity: 0; */  
     margin:2rem;
-    padding: 2rem;
+    margin-top: 6rem;
+    padding: 3rem;
+    padding-top: 6rem;
     display: flex;
     align-items: center;
-    gap:10rem
+    gap:10rem;
+   
+
 
 }
 .intro-container{
