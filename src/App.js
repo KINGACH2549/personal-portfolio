@@ -2,6 +2,7 @@ import { useState } from "react";
 import HeroPage from "./Pages/HeroPage";
 import NavPage from "./Pages/NavbarPage";
 import "./index.css";
+import AboutPage from "./Pages/AboutPage";
 
 function App() {
   //background color change from top  most parent element
@@ -21,6 +22,7 @@ function App() {
         handleBackgroundColor={handleBackgroundColor}
       />
       <HeroPage backgroundColor={backgroundColor} />
+      <AboutPage />
     </div>
   );
 }

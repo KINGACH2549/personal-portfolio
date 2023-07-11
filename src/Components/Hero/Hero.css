@@ -1,13 +1,14 @@
 
 .hero-container{
-    /* background-color: red; */
-    /* opacity: 0;   */
+/*  
     opacity: 0;
-        animation: lottieAnimation 1s ease forwards;
+        animation: lottieAnimation 1s ease forwards;   */
+   
     margin:2rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
     padding: 2rem;
-    /* padding-top: 4rem; */
+    padding-top: 3rem;
+  
     display: flex;
     align-items: center;
     gap:10rem;

@@ -18,7 +18,7 @@ function Navbar({
     );
   });
   return (
-    <div className="nav-container">
+    <div className="nav-container" style={{ backgroundColor }}>
       <nav className="navbar">
         <p className="logo-container">
           <a

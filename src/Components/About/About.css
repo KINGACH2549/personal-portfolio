@@ -1,0 +1,33 @@
+.about-container{
+
+    padding: 1.9rem 3.2rem;
+    width: 90%;
+    margin:3.2rem;
+    background-color: rgb(43, 119, 191);
+    box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+    border-radius: 10px;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.about-content{
+    font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+    font-size: 1.6rem;
+    /* font-style: italic; */
+    color: white;
+    line-height: 2.6rem;
+}
+
+.internship-details{
+   color: white;
+   font-size: 1.4rem;
+   background-color: hsl(333deg, 100%, 45%);
+   display: inline-block;
+   padding: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-radius: 5px;
+   margin: 0.5rem;
+   margin-left: 0.9rem;
+   margin-right: 0.9rem;
+}
