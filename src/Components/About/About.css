@@ -3,17 +3,23 @@
     padding: 1.9rem 3.2rem;
     width: 90%;
     margin:3.2rem;
+    
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.about-content-container{
+    padding: 1.9rem 3.2rem;
     background-color: rgb(43, 119, 191);
     box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
     border-radius: 10px;
-    margin-top: 6rem;
-    margin-left: 5rem;
+    margin-bottom: 4rem;
 }
 
 .about-content{
     font-family:'Wotfard','Wotfard-fallback',sans-serif; 
     font-size: 1.6rem;
-    /* font-style: italic; */
+    font-weight: 400;
     color: white;
     line-height: 2.6rem;
 }
@@ -21,7 +27,7 @@
 .internship-details{
    color: white;
    font-size: 1.4rem;
-   background-color: hsl(333deg, 100%, 45%);
+   background-color: rgb(43, 119, 191);
    display: inline-block;
    padding: 1rem;
    padding-top: 1rem;
@@ -30,4 +36,72 @@
    margin: 0.5rem;
    margin-left: 0.9rem;
    margin-right: 0.9rem;
+}
+
+.skills-experience-container{
+    margin-top: 6rem;
+    font-size: 3rem;
+    font-family:  'Wotfard','Wotfard-fallback',sans-serif; 
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-grid{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    /* background-color:green */
+}
+.skills-grid p {
+    text-transform: uppercase;
+    grid-column: 1/4;
+    text-align: center;
+    color:hsl(333deg, 100%, 45%);
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.skills{
+    font-family:  'Wotfard','Wotfard-fallback',sans-serif; 
+    background-color: rgb(110, 170, 226);
+    /* background-color :hsla(213, 25%, 19%, 0.85); */
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #222;
+    /* color: white; */
+    letter-spacing: -0.01rem;
+    border: 0;
+    transition: transform 200ms ease-out;
+    font-weight: 600;
+}
+
+.skills:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    background-color :hsl(201, 88%, 46%);
+  
+}
+
+.skill-dark{
+    font-family:  'Wotfard','Wotfard-fallback',sans-serif; 
+    background-color :hsla(213, 25%, 19%, 0.85);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: -0.01rem;
+    border: 0;
+    transition: transform 200ms ease-out;
+    font-weight: 600;
+}
+.skill-dark:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    background-color: hsla(222, 4%, 47%, 0.85);
 }

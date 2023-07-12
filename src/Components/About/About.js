@@ -1,6 +1,9 @@
 import "./About.css";
 
-function About() {
+function About({ skills, className }) {
+  const renderedButtons = skills.map((skill) => {
+    return <button className={className}>{skill}</button>;
+  });
   return (
     <div className="about-container">
       <p className="about-content-container">
@@ -21,6 +24,15 @@ function About() {
           positive impact with my work"
         </span>
       </p>
+      <div className="skills-experience-container">
+        <div className="skills-grid">
+          <p>skills</p>
+          {renderedButtons}
+        </div>
+        <div>
+          <p>Experience</p>
+        </div>
+      </div>
     </div>
   );
 }

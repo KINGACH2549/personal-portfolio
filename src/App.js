@@ -22,7 +22,7 @@ function App() {
         handleBackgroundColor={handleBackgroundColor}
       />
       <HeroPage backgroundColor={backgroundColor} />
-      <AboutPage />
+      <AboutPage backgroundColor={backgroundColor} />
     </div>
   );
 }
