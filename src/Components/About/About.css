@@ -39,7 +39,7 @@
 }
 
 .skills-experience-container{
-    margin-top: 6rem;
+    margin-top: 7rem;
     font-size: 3rem;
     font-family:  'Wotfard','Wotfard-fallback',sans-serif; 
     font-weight: 600;
@@ -48,7 +48,7 @@
 }
 
 .skills-grid{
-    width: 30%;
+    width: 25%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:1rem;
@@ -68,10 +68,10 @@
     font-family:  'Wotfard','Wotfard-fallback',sans-serif; 
     background-color: rgb(110, 170, 226);
     /* background-color :hsla(213, 25%, 19%, 0.85); */
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
     text-align: center;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #222;
     /* color: white; */
     letter-spacing: -0.01rem;
@@ -104,4 +104,98 @@
     cursor: pointer;
     transform: scale(1.09);
     background-color: hsla(222, 4%, 47%, 0.85);
+}
+.expereince-card{
+    font-family:   'Wotfard','Wotfard-fallback',sans-serif; 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:2rem;
+    column-gap: 0rem;
+    padding:2rem;
+    padding-top: 1rem;
+    color:#222;
+    box-shadow: 0 0 2px rgba(110, 110, 110, 0.5);
+    border-radius: 10px;
+    position: relative;
+  
+    
+}
+
+.exp-date{
+    grid-row: 1/4;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:#222;
+    margin-top: 0.2rem
+    
+}
+.experience-section{
+    /* background-color: green; */
+    /* margin-right: 5rem; */
+    /* padding:2rem */
+    /* width: 50%; */
+    margin-left: 8rem;
+   
+}
+.experience-section p{
+    text-transform: uppercase;
+    /* grid-column: 1/4; */
+    text-align: center;
+    color:hsl(333deg, 100%, 45%);
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    margin-bottom: 2.8rem;
+}
+
+.exp-des{
+    font-size: 1.7rem;
+    font-weight: 600;
+    
+}
+
+.exp-company{
+    font-size:1.5rem;
+   
+}
+.exp-desc{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+   
+    
+}
+.exp-header{
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem
+}
+.overflow-exp{
+    
+    box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+    border-radius: 10px;
+    transition: transform 400ms ease-out;
+    
+}
+.overflow-exp:hover{
+   
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.overflow-exp:hover .expereince-card .exp-arrow{
+    transform: scale(1.2);
+}
+.exp-tech{
+    list-style: none;
+    display: flex;
+    gap:1rem;
+    color: white;
+    font-size: 1rem;
+}
+.exp-tech li{
+    padding: 0.5rem 1rem;
+    background-color: rgb(43, 119, 191);
+    border-radius: 20px;
+    font-weight: 600;
 }
