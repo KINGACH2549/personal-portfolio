@@ -1,0 +1,59 @@
+.footer{
+ 
+   background: linear-gradient(white,white,rgb(43, 119, 191));
+   margin-top: 6rem;
+   color: white;
+   font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+   padding:3rem;
+   padding-top: 1rem;   
+   padding-bottom: 1.4rem;
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.footer-message{
+    /* background-color: red; */
+    /* margin-left:10rem; */
+    
+    text-align: center;
+    /* display: flex;
+    gap:6rem;
+    align-items: center; */
+    /* margin-bottom: 1.5rem; */
+    padding:2rem;
+    color:#222;
+    font-size: 2.4rem;
+}
+.footer-message a{
+    margin-top:1.8rem;
+    display: inline-block;
+    background-color: blue;
+    padding: 1.2rem 1.8rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+.footer-message a:hover{
+    background:linear-gradient(blue,rgb(11, 11, 148),blue);
+    cursor: pointer; 
+}
+
+.copyright-footer{
+    /* background-color: rgb(43, 119, 191); */
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+   
+    font-weight: 500;
+    color: #222;
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+}
+
+.copyright-footer a{
+    font-size: 1.2rem;
+    color: #222;
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    
+}

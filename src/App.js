@@ -4,6 +4,7 @@ import NavPage from "./Pages/NavbarPage";
 import "./index.css";
 import AboutPage from "./Pages/AboutPage";
 import ProjectPage from "./Pages/ProjectPage";
+import FooterPage from "./Pages/FooterPage";
 
 function App() {
   //background color change from top  most parent element
@@ -25,6 +26,7 @@ function App() {
       <HeroPage backgroundColor={backgroundColor} />
       <AboutPage backgroundColor={backgroundColor} />
       <ProjectPage backgroundColor={backgroundColor} />
+      <FooterPage backgroundColor={backgroundColor} />
     </div>
   );
 }
