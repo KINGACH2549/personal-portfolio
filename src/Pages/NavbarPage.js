@@ -2,8 +2,12 @@ import { MdOutlineNightlight, MdLightMode } from "react-icons/md";
 import Navbar from "../Components/Navbar/Navbar";
 
 function NavPage({ backgroundColor, handleBackgroundColor }) {
-  const navLinks = ["Home", "About", "Posts", "Contact"];
-
+  const navLinks = [
+    { section: "Home", ref: "hero-section" },
+    { section: "About", ref: "about-section" },
+    { section: "Posts", ref: "" },
+    { section: "Contact", ref: "footer-section" },
+  ];
   return (
     <>
       {backgroundColor ? (

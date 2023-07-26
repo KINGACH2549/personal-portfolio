@@ -6,7 +6,7 @@ function FooterComp({ color, background }) {
     e.preventDefault();
   };
   return (
-    <footer className="footer" style={{ background }}>
+    <footer id="footer-section" className="footer" style={{ background }}>
       <div className="footer-message">
         <h3 style={{ color }}>Want to get in Touch ?</h3>
         <a href="/" onClick={onSubmit}>

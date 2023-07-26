@@ -9,7 +9,6 @@ import FooterPage from "./Pages/FooterPage";
 import SkillPage from "./Pages/SkillPage";
 
 function App() {
-  //background color change from top  most parent element
   const [backgroundColor, setBackgroundcolor] = useState(false);
   const handleBackgroundColor = () => {
     if (!backgroundColor) {

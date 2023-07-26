@@ -8,11 +8,21 @@ function Navbar({
   backgroundColor,
   logo,
 }) {
+  const scrolltoSection = (ref) => {
+    const section = document.getElementById(ref);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const renderLinks = navLinks.map((links) => {
     return (
-      <li class="nav-links-list">
-        <button className="nav-links" style={{ color, backgroundColor }}>
-          {links}
+      <li className="nav-links-list">
+        <button
+          onClick={() => scrolltoSection(links.ref)}
+          className="nav-links"
+          style={{ color, backgroundColor }}
+        >
+          {links.section}
         </button>
       </li>
     );

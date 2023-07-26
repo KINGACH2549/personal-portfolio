@@ -4,7 +4,7 @@ import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 
 function Hero({ color }) {
   return (
-    <div className="hero-container">
+    <div id="hero-section" className="hero-container">
       <Player
         src="https://assets8.lottiefiles.com/packages/lf20_gljfnvqz.json"
         // className=".lottie"

@@ -33,7 +33,7 @@ function About({ skills, className, expereinces, color }) {
     );
   });
   return (
-    <div className="about-container">
+    <div id="about-section" className="about-container">
       <p className="about-content-container">
         <span className="about-content">
           I'm , a recent undergraduate who's genuinely passionate about building
@@ -53,10 +53,6 @@ function About({ skills, className, expereinces, color }) {
         </span>
       </p>
       <div className="skills-experience-container">
-        {/* <div className="skills-grid">
-          <p>skills</p>
-          {renderedButtons}
-        </div> */}
         <Player
           src="https://lottie.host/ee2c3280-5981-4340-a7a5-4bccc878c821/DlivVtso87.json"
           loop
