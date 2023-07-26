@@ -6,6 +6,8 @@ import AboutPage from "./Pages/AboutPage";
 import ProjectPage from "./Pages/ProjectPage";
 import FooterPage from "./Pages/FooterPage";
 
+import SkillPage from "./Pages/SkillPage";
+
 function App() {
   //background color change from top  most parent element
   const [backgroundColor, setBackgroundcolor] = useState(false);
@@ -26,6 +28,8 @@ function App() {
       <HeroPage backgroundColor={backgroundColor} />
       <AboutPage backgroundColor={backgroundColor} />
       <ProjectPage backgroundColor={backgroundColor} />
+
+      <SkillPage backgroundColor={backgroundColor} />
       <FooterPage backgroundColor={backgroundColor} />
     </div>
   );

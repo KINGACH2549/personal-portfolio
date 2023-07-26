@@ -1,0 +1,64 @@
+
+#html{
+  height: 8rem;
+  margin-top: 1.2rem;
+}
+#node-js{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 10rem;
+}
+#c{
+    height: 9rem;
+    margin-top: 0.5rem;
+}
+.skills-container{
+
+    margin:3.2rem;
+    margin-top: 6rem;
+    padding : 1.6rem 2rem;
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    /* background-color: red; */
+}
+.my-skill-text{
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: hsl(333deg, 100%, 45%);
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+}
+.skill-icons{
+   width: 9rem;
+   /* background-color: green; */
+   height: 10rem;
+}
+
+.swiper-skills{
+    
+}
+.swiper-skills .swiper-button-prev {
+    color:#3e3e3e;
+
+    
+  }
+  
+  .swiper-skills .swiper-button-next {
+    
+    color:#3e3e3e;
+
+  }
+
+  .swiper-skills-dark {
+    
+  }
+  .swiper-skills-dark .swiper-button-prev {
+    color: rgb(176, 176, 216);
+  }
+
+  .swiper-skills-dark .swiper-button-next {
+    color: rgb(176, 176, 216);
+  }
