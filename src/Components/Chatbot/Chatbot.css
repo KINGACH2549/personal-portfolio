@@ -1,0 +1,117 @@
+.chatbot-container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width:23%;
+    height: 450px;
+    z-index: 999;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+.chat-area{
+    /* border-radius: 20px; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.chat-inputbox{
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    width: 100%;
+    /* background-color: rgb(184, 177, 177); */
+    /* padding:10px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+    display: flex;
+    align-items: center;
+    gap:0.1rem;
+}
+.chatbot-header{
+    border-radius: 20px;
+    width: 100%;
+    /* position: absolute; */
+    margin-top: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 1.6rem;
+    background-color: rgb(43, 119, 191);
+}
+.chatbbot-form input{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    outline: none;
+}
+.chatbbot-form button{
+    font-size: 1.2rem;
+}
+
+.chat-inputbox textarea{
+
+    resize: none; /* Prevent users from resizing the textarea */
+    padding: 0.2rem;
+    padding-left:1rem;
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    border: none; /* Remove default textarea border */
+    outline: none; /* Remove default focus outline */
+    overflow: hidden;
+    /* border-radius: 10px; */
+    border-bottom-left-radius: 20px;
+    box-shadow:inset 0 0 2px rgba(110, 110, 110, 0.5);
+}
+
+.chat-inputbox a{
+    background-color: rgb(43, 119, 191);
+    padding: 1rem 1.2rem;
+    color: white;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    border-bottom-right-radius: 20px;
+    box-shadow:inset 0 0 2px rgba(110, 110, 110, 0.5);
+}
+.chat-inputbox a:hover{
+    background:linear-gradient(rgb(43, 119, 191),rgb(11, 11, 148),rgb(43, 119, 191));
+}
+.chatbot-header p {
+    padding: 0.3rem 0.5rem;
+    position: absolute;
+    right: 1rem;
+    top:0.5rem;
+    cursor: pointer;
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #222;
+    background-color: rgb(240, 232, 232);
+    border-radius: 50%;
+}
+
+.bot-reply-container{
+    margin:1.2rem;
+    padding:1rem;
+    background-color: rgb(43, 119, 191);
+    font-size: 1rem;
+    font-family:'Wotfard','Wotfard-fallback',sans-serif ;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+   
+}
+.bot-reply{
+    font-size: 1rem;
+    font-family:'Wotfard','Wotfard-fallback',sans-serif ;
+    font-weight: 500;
+    color: white;
+    line-height: 1.5rem;
+}
+.allchats{
+    overflow-y: scroll;
+    height: 70%
+}

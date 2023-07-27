@@ -1,9 +1,11 @@
 import "./footer.css";
 
 import { AiOutlineMail } from "react-icons/ai";
-function FooterComp({ color, background }) {
+function FooterComp({ color, background, handleChat, chatStatus }) {
   const onSubmit = (e) => {
     e.preventDefault();
+
+    handleChat(true);
   };
   return (
     <footer id="footer-section" className="footer" style={{ background }}>
