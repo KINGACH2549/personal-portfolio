@@ -10,6 +10,7 @@ import "./Skills.css";
 function Skills({ className }) {
   const [skills, setSkill] = useState([]);
   useEffect(() => {
+    //eslint-disable-next-line
     setSkill([
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -333,8 +334,6 @@ function Skills({ className }) {
       navigation
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       // pagination={{ clickable: true }}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
       className={className}
       style={{
         padding: "4rem",

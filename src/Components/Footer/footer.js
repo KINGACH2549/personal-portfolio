@@ -19,6 +19,7 @@ function FooterComp({ color, background, handleChat, chatStatus }) {
         <span>&copy; 2023 Achintya Mishra. All rights reserved.</span>
         <span>This website does not use cookies.</span>
         <span>For more information please contact.</span>
+
         <AiOutlineMail />
         <a href="mailto:sciencerage802@gmail.com" style={{ color }}>
           sciencerage802@gmail.com

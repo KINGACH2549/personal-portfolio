@@ -13,16 +13,7 @@ function About({ skills, className, expereinces, color }) {
           <h3 className="exp-des">{experience.designation}</h3>
           <h4 className="exp-company">{experience.company}</h4>
         </div>
-        <BsArrowUpRight
-          className="exp-arrow"
-          style={{
-            position: "absolute",
-            height: "50px",
-            width: "30px",
-            top: "10px",
-            right: "20px",
-          }}
-        />
+        <BsArrowUpRight className="exp-arrow" />
         <div className="exp-desc">{experience.Description}</div>
         <ul className="exp-tech">
           {experience.TechStack.map((skill) => {
@@ -57,12 +48,7 @@ function About({ skills, className, expereinces, color }) {
           src="https://lottie.host/ee2c3280-5981-4340-a7a5-4bccc878c821/DlivVtso87.json"
           loop
           autoplay
-          style={{
-            height: "400px",
-            width: "400px",
-            // borderRadius: "50%",
-            // backgroundColor: "white",
-          }}
+          className="exp-lottie"
         />
         <div className="experience-section">
           <p>Experience</p>

@@ -31,7 +31,7 @@
     box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
     display: flex;
     align-items: center;
-    gap:0.1rem;
+    /* gap:0.1rem; */
 }
 .chatbot-header{
     border-radius: 20px;
@@ -53,7 +53,7 @@
 }
 
 .chat-inputbox textarea{
-
+    width: 100%;
     resize: none; /* Prevent users from resizing the textarea */
     padding: 0.2rem;
     padding-left:1rem;
@@ -68,6 +68,7 @@
 }
 
 .chat-inputbox a{
+    justify-self: flex-end;
     background-color: rgb(43, 119, 191);
     padding: 1rem 1.2rem;
     color: white;
@@ -114,4 +115,77 @@
 .allchats{
     overflow-y: scroll;
     height: 70%
+}
+
+@media screen and (min-width:1000px ) and (max-width:1100px) {
+ 
+    .chatbot-container{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width:30%;
+        height: 500px;
+        z-index: 999;
+       background-color: rgb(255, 255, 255);
+       box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+       border-radius: 20px;
+       overflow: hidden;
+    }
+    .chat-inputbox textarea{
+        width: 100%;
+        resize: none; /* Prevent users from resizing the textarea */
+        padding: 0.2rem;
+        padding-left:1rem;
+        font-family: Arial, sans-serif;
+        font-size: 1.2rem;
+        border: none; /* Remove default textarea border */
+        outline: none; /* Remove default focus outline */
+        overflow: hidden;
+        /* border-radius: 10px; */
+        border-bottom-left-radius: 20px;
+        box-shadow:inset 0 0 2px rgba(110, 110, 110, 0.5);
+    }
+
+}
+@media screen and (min-width:1770px){
+    .chatbot-container{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width:23%;
+        height: 550px;
+        z-index: 999;
+       background-color: rgb(255, 255, 255);
+       box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+       border-radius: 20px;
+       overflow: hidden;
+    }
+    .bot-reply{
+        font-size: 1.1rem;
+        font-family:'Wotfard','Wotfard-fallback',sans-serif ;
+        font-weight: 500;
+        color: white;
+        line-height: 1.5rem;
+    }
+}
+@media screen and (min-width:1870px){
+    .chatbot-container{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width:23%;
+        height: 600px;
+        z-index: 999;
+       background-color: rgb(255, 255, 255);
+       box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+       border-radius: 20px;
+       overflow: hidden;
+    }
+    .bot-reply{
+        font-size: 1.2rem;
+        font-family:'Wotfard','Wotfard-fallback',sans-serif ;
+        font-weight: 500;
+        color: white;
+        line-height: 1.6rem;
+    }
 }

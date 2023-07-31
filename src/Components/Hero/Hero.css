@@ -42,6 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    
 }
 .social-icon-link{
     display: inline-block;
@@ -73,5 +74,238 @@
        
         opacity: 0;
         animation: lottieAnimation 1s ease forwards;
+        height: 600px;
+         width: 600px;
+        border-radius:50%,
       
   }
+  @media screen and (min-width:1000px ) and (max-width:1100px) {
+ 
+    .hero-container{
+        /*  
+            opacity: 0;
+                animation: lottieAnimation 1s ease forwards;   */
+           
+            margin:2.2rem auto;
+            margin-top: 7rem;
+            padding: 2rem;
+            padding-top: 3rem;
+          
+            display: flex;
+            align-items: center;
+            gap:6rem;
+            /* justify-content: space-between; */
+           
+        
+        
+        }
+        .intro-container{
+  
+            font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+            line-height: 2.9rem;
+            align-self: flex-start;
+          margin-top: 5rem;
+          font-weight: 500;
+          font-size: 1.6rem;
+          color: #222;
+       
+      }
+      .intro-name{
+        font-size:3.6rem ;
+        line-height: 3.8rem;
+        letter-spacing: 0.01rem;
+        font-weight: bold;
+    }
+    .social-icons-hero{
+        align-self: flex-start;
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
+        
+    }
+    .social-icon{
+        width: 50px;
+        height: 25px;
+        cursor: pointer;
+        transition: transform 450ms ease-out;
+    }
+        .lottie {
+       
+            opacity: 0;
+            animation: lottieAnimation 1s ease forwards;
+            height: 450px;
+             width: 450px;
+            border-radius:50%,
+          
+      }
+}
+  @media screen and (min-width: 1600px ){
+    .hero-container{
+     
+           
+            margin:2rem;
+            margin-top: 7rem;
+            padding: 2rem;
+            padding-top: 3rem;
+          
+            display: flex;
+            align-items: center;
+            gap:11.5rem;
+           
+        
+        
+        }
+  }
+  @media screen and (min-width: 1700px ){
+    .hero-container{
+     
+           
+            margin:2rem;
+            margin-top: 8rem;
+            padding: 2rem;
+            padding-top: 3rem;
+          
+            display: flex;
+            align-items: center;
+            gap:13rem;
+           
+        
+        
+        }
+        .intro-container{
+  
+            font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+            line-height: 3.4rem;
+            align-self: flex-start;
+          margin-top: 2rem;
+          font-weight: 500;
+          font-size: 2.2rem;
+          color: #222;
+       
+      }
+      .intro-name{
+          font-size:5.3rem ;
+          line-height: 6rem;
+          letter-spacing: 0.05rem;
+          font-weight: bold;
+      }
+      .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        height: 620px;
+         width: 620px;
+        border-radius:50%,
+      
+  }
+  .social-icon{
+    width: 70px;
+    height: 34px;
+    cursor: pointer;
+    transition: transform 450ms ease-out;
+}
+  }
+
+@media screen and (min-width :1770px){
+    .hero-container{
+     
+           
+        margin:2rem;
+        margin-top: 9rem;
+        padding: 2rem;
+        padding-top: 3rem;
+      
+        display: flex;
+        align-items: center;
+        gap:15rem;
+       
+    
+    
+    }
+    .intro-name{
+        font-size:5.3rem ;
+        line-height: 6.2rem;
+        letter-spacing: 0.05rem;
+        font-weight: bold;
+    }
+    .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        height: 650px;
+         width: 650px;
+        border-radius:50%,
+      
+  }
+  .social-icons-hero{
+    align-self: flex-start;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+  .social-icon{
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 450ms ease-out;
+}
+}
+
+@media screen and (min-width:1870px){
+    .hero-container{
+     
+           
+        margin:2rem;
+        margin-top: 10rem;
+        padding: 2rem;
+        padding-top: 3rem;
+      
+        display: flex;
+        align-items: center;
+        gap:15rem;
+       
+    
+    
+    }
+    .intro-container{
+        align-self: center;
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        line-height: 3.5rem;
+        align-self: flex-start;
+      margin-top: 4rem;
+      font-weight: 500;
+      font-size: 2.5rem;
+      color: #222;
+   
+  }
+    .intro-name{
+        font-size:5.7rem ;
+        line-height: 6.6rem;
+        letter-spacing: 0.05rem;
+        font-weight: bold;
+    }
+    .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        height: 700px;
+         width: 700px;
+        border-radius:50%,
+      
+  }
+  .social-icons-hero{
+    align-self: flex-start;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+  .social-icon{
+    width: 70px;
+    height: 37px;
+    cursor: pointer;
+    transition: transform 450ms ease-out;
+}
+}

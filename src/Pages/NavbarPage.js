@@ -5,7 +5,7 @@ function NavPage({ backgroundColor, handleBackgroundColor }) {
   const navLinks = [
     { section: "Home", ref: "hero-section" },
     { section: "About", ref: "about-section" },
-    { section: "Posts", ref: "" },
+    { section: "Posts", ref: null },
     { section: "Contact", ref: "footer-section" },
   ];
   return (
@@ -19,8 +19,6 @@ function NavPage({ backgroundColor, handleBackgroundColor }) {
             <MdOutlineNightlight
               className="custom-icon"
               style={{
-                width: "60px",
-                height: "30px",
                 color: "white",
               }}
             />
@@ -32,12 +30,7 @@ function NavPage({ backgroundColor, handleBackgroundColor }) {
           navLinks={navLinks}
           changeBackgroundColor={handleBackgroundColor}
           color="#222"
-          themeIcon={
-            <MdLightMode
-              className="bright-icon"
-              style={{ width: "60px", height: "30px" }}
-            />
-          }
+          themeIcon={<MdLightMode className="bright-icon" />}
         />
       )}
     </>
