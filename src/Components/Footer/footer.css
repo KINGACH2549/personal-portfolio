@@ -39,57 +39,28 @@
 }
 
 .copyright-footer{
-    /* background-color: rgb(43, 119, 191); */
+    
     font-size: 1.2rem;
     margin-top: 0.3rem;
     display: flex;
-    justify-content: center;
-    gap:1rem;
+    justify-content: space-between;
    
     font-weight: 500;
     color: #222;
     font-family: 'Wotfard','Wotfard-fallback',sans-serif;
 }
-
+.mail-footer{
+    display: flex;
+    gap:0.2rem;
+}
+.mail-icon{
+    align-self: center;
+}
 .copyright-footer a{
-    /* align-self: flex-start; */
+ 
     font-size: 1.2rem;
     color: #222;
     font-family: 'Wotfard','Wotfard-fallback',sans-serif;
     
 }
 
-@media screen and (min-width:1000px ) and (max-width:1100px) {
- 
-   .footer{
- 
-   background: linear-gradient(white,white,rgb(43, 119, 191));
-   margin-top: 6rem;
-   color: white;
-   font-family: 'Wotfard','Wotfard-fallback',sans-serif;
-   padding:1rem;
-   padding-top: 1rem;   
-   padding-bottom: 1.4rem;
-   font-size:2rem;
-   font-weight: 600;
-}
-
-.copyright-footer{
-    /* background-color: rgb(43, 119, 191); */
-    font-size: 0.9rem;
-    margin-top: 0.3rem;
-    display: flex;
-    /* justify-content: space-between; */
-    gap:0.5rem;
-    font-weight: 500;
-    color: #222;
-    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
-}
-
-.copyright-footer a{
-    font-size: 0.9rem;
-    color: #222;
-    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
-    
-}
-}

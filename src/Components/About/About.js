@@ -29,9 +29,8 @@ function About({ skills, className, expereinces, color }) {
         <span className="about-content">
           I'm , a recent undergraduate who's genuinely passionate about building
           systems at scale. I have a deep love for technology and its potential
-          to transform lives. My academic journey has been great, and I have
-          achieved a CGPA of 8.97 during my undergrad. During my time as a
-          backend development intern
+          to transform lives. My academic journey has been great. During my time
+          as a backend development intern
         </span>
 
         <span className="about-content">

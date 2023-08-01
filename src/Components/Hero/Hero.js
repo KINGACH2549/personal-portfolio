@@ -11,10 +11,10 @@ function Hero({ color }) {
         loop
         autoplay
         background="rgb(43, 119, 191)"
-        style={{borderRadius:"50%"
-        }}
+        style={{ borderRadius: "50%" }}
         className="lottie"
       />
+
       <div className="intro-container" style={{ color }}>
         <p className="intro-hello"> Hello I am</p>
         <p className="intro-name">

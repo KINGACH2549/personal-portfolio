@@ -326,14 +326,13 @@ function Skills({ className }) {
   const slides = skills.map((skill_svg) => {
     return <SwiperSlide>{skill_svg}</SwiperSlide>;
   });
+  console.log(window.innerWidth);
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      slidesPerView={4}
-      //   spaceBetween={5}
+      slidesPerView={3}
       navigation
       autoplay={{ delay: 2500, disableOnInteraction: false }}
-      // pagination={{ clickable: true }}
       className={className}
       style={{
         padding: "4rem",

@@ -9,7 +9,7 @@ body{
     background-color: #fff;
 }
 .container{
-    max-width: 220rem;
+    max-width: 100%
     
     /* background-color: red;
     padding:1.6rem 3.2rem */
@@ -71,24 +71,4 @@ a{
    height: 30px;
   }
 
-  @media screen and (min-width:1770px){
-    .custom-icon {
-    
-   
-        animation-name: delayedRenderIcon;
-        animation-duration: 100ms;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-out;
-        width: 70px;
-       height: 32px;
-       
-      }
-      .bright-icon{
-        animation-name: delayedRenderBright;
-        animation-duration: 100ms;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-out;
-        width: 70px;
-       height: 32px;
-      }
-  }
+ 

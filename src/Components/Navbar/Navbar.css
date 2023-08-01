@@ -1,31 +1,28 @@
 .nav-container{
-    /* background-color: green; */
-
+  
     background-color: white; 
     position: fixed;
     top:0;
     left:0;
     width: 100%;
     z-index: 1000;
-   /* background: linear-gradient( hsla(200deg, 100%, 85%, 0.1),hsla(200deg, 100%, 85%, 0)); */
     padding:1.6rem 3.2rem;
     padding-bottom: 0.5rem;
  
    
-    /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); */
 }
 
 .navbar{
     
     display: flex;
-    justify-content: center;
-    gap:16rem;
-    /* background-color: green; */
+    justify-content: space-between;
+    align-items:center;
+    /* gap:16rem; */
 }
 
 .navbar-list{
-    /* background-color: red; */
-    margin: 1.2rem 1.6rem;
+   
+
     list-style: none;
     display: flex;
     gap:4.2rem;
@@ -39,11 +36,10 @@
     cursor: pointer;
     background-color: white;
     letter-spacing: 0.1rem;
-    /* font-family: 'Roboto Condensed', sans-serif; */
+
     font-family: 'Wotfard','Wotfard-fallback',sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    /* color: #222; */
     display: inline-block;
 }
 
@@ -53,7 +49,6 @@
  
 }
 .nav-icon{
-    /* padding-top: 0.1rem; */
     align-self: flex-end;
     
 }
@@ -62,8 +57,7 @@
    
 }
 .logo-container{
-    /* margin-top: 6px; */
-    /* align-self: center; */
+ 
     cursor: pointer;
     transition: transform 250ms;
 }
@@ -74,7 +68,7 @@
 
 .logo{
     font-family:'Wotfard','Wotfard-fallback',sans-serif; 
-    /* font-family: 'Dancing Script', cursive; */
+
     font-weight: 700;
     font-size: 4rem;
     color:rgb(43, 119, 191);
@@ -96,7 +90,7 @@
 .logo-tail{
     opacity: 0;
     font-family: 'Dancing Script', cursive;
-    /* font-family:'Wotfard','Wotfard-fallback',sans-serif;  */
+
     letter-spacing: -1.5px;
     font-weight: 600;
     font-size: 3.2rem;
@@ -109,34 +103,23 @@
     
     
 }
- 
-@media screen and (min-width:1000px ) and (max-width:1100px) {
-    .navbar{
-    
-        display: flex;
-        justify-content: center;
-        gap:5rem;
-  
-    }
-    .logo-container{
-        /* margin-top: 6px; */
-        /* align-self: center; */
-        margin-left: 3rem;
-        cursor: pointer;
-        transition: transform 250ms;
-    }
+@media screen and (min-width :768px) and (max-width:999px){
+    .navbar-list{
    
 
-}
-
-@media screen and (min-width: 1700px ){
+        list-style: none;
+        display: flex;
+        gap:3rem;
+        justify-content: center;
+    }
+ 
     .logo-tail{
         opacity: 0;
         font-family: 'Dancing Script', cursive;
-        /* font-family:'Wotfard','Wotfard-fallback',sans-serif;  */
+    
         letter-spacing: -1.5px;
         font-weight: 600;
-        font-size: 3.6rem;
+        font-size: 2.2rem;
         color:rgb(43, 119, 191);
         animation-delay: 1s;
         animation-name: delayedRender;
@@ -146,132 +129,4 @@
         
         
     }
-    .nav-links{
-        border: 0;
-      
-        cursor: pointer;
-        background-color: white;
-        letter-spacing: 0.1rem;
-        /* font-family: 'Roboto Condensed', sans-serif; */
-        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
-        font-size: 1.7rem;
-        font-weight: 400;
-        /* color: #222; */
-        display: inline-block;
-    }
-    .navbar{
-    
-        display: flex;
-        justify-content: center;
-        gap:17rem;
-        /* background-color: green; */
-    }
-    .navbar-list{
-        /* background-color: red; */
-        margin: 1.2rem 1.8rem;
-        list-style: none;
-        display: flex;
-        gap:4.4rem;
-        justify-content: center;
-    
-    
-}
-}
-
-@media screen and (min-width:1770px){
-    .logo-tail{
-        opacity: 0;
-        font-family: 'Dancing Script', cursive;
-        /* font-family:'Wotfard','Wotfard-fallback',sans-serif;  */
-        letter-spacing: -1.5px;
-        font-weight: 600;
-        font-size: 4rem;
-        color:rgb(43, 119, 191);
-        animation-delay: 1s;
-        animation-name: delayedRender;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-out;
-        
-        
-    }
-    .nav-links{
-        border: 0;
-      
-        cursor: pointer;
-        background-color: white;
-        letter-spacing: 0.1rem;
-        /* font-family: 'Roboto Condensed', sans-serif; */
-        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
-        font-size: 1.9rem;
-        font-weight: 400;
-        /* color: #222; */
-        display: inline-block;
-    }
-    .navbar{
-    
-        display: flex;
-        justify-content: center;
-        gap:18rem;
-        /* background-color: green; */
-    }
-    .navbar-list{
-        /* background-color: red; */
-        margin: 1.2rem 1.8rem;
-        list-style: none;
-        display: flex;
-        gap:4.4rem;
-        justify-content: center;
-    
-    
-}
-}
-
-@media screen and (min-width:1870px){
-    .logo-tail{
-        opacity: 0;
-        font-family: 'Dancing Script', cursive;
-        /* font-family:'Wotfard','Wotfard-fallback',sans-serif;  */
-        letter-spacing: -1.5px;
-        font-weight: 600;
-        font-size: 4.2rem;
-        color:rgb(43, 119, 191);
-        animation-delay: 1s;
-        animation-name: delayedRender;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-out;
-        
-        
-    }
-    .nav-links{
-        border: 0;
-      
-        cursor: pointer;
-        background-color: white;
-        letter-spacing: 0.1rem;
-        /* font-family: 'Roboto Condensed', sans-serif; */
-        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
-        font-size: 2rem;
-        font-weight: 400;
-        /* color: #222; */
-        display: inline-block;
-    }
-    .navbar{
-    
-        display: flex;
-        justify-content: center;
-        gap:19rem;
-        /* background-color: green; */
-    }
-    .navbar-list{
-        /* background-color: red; */
-        margin: 1.2rem 1.8rem;
-        list-style: none;
-        display: flex;
-        gap:4.9rem;
-        justify-content: center;
-    
-    
-}
 }
