@@ -1,4 +1,6 @@
+import { useState } from "react";
 import "./Navbar.css";
+import { AiOutlineMenu } from "react-icons/ai";
 
 function Navbar({
   navLinks,
@@ -8,9 +10,16 @@ function Navbar({
   backgroundColor,
   logo,
 }) {
+  const [shownav, setshownav] = useState(false);
+  const handlemobilenav = () => {
+    setshownav(!shownav);
+  };
   const scrolltoSection = (ref) => {
     const section = document.getElementById(ref);
     if (section) {
+      if (shownav) {
+        setshownav(!shownav);
+      }
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
@@ -46,7 +55,19 @@ function Navbar({
             {themeIcon}
           </li>
         </ul>
+
+        <AiOutlineMenu className="menu-icon" onClick={handlemobilenav} />
       </nav>
+      {shownav && (
+        <div className="mobile-nav">
+          <ul className="navbar-list-mobile">
+            <li onClick={() => changeBackgroundColor()} className="nav-icon">
+              {themeIcon}
+            </li>
+            {renderLinks}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }

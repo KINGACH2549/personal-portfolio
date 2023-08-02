@@ -3,7 +3,7 @@
     margin : 0 auto;
     max-width: 90%;
     margin-top: 5rem;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     
 }
 .about-content-container{
@@ -18,7 +18,7 @@
     font-family:'Wotfard','Wotfard-fallback',sans-serif; 
     font-size: 1.6rem;
     font-weight: 400;
-    color: white;
+    color: rgb(240, 245, 255);
     line-height: 2.6rem;
 }
 
@@ -121,7 +121,7 @@
     list-style: none;
     display: flex;
     gap:1rem;
-    color: white;
+    color: rgb(240, 245, 255);
     font-size: 1rem;
 }
 .exp-tech li{
@@ -134,7 +134,7 @@
     height:400px;
     width: 400px;
 }
-@media screen and (min-width:768px) and (max-width :999px){
+@media screen and  (max-width :999px){
     .about-content-container{
         padding: 2rem 3.6rem;
         background-color: rgb(43, 119, 191);
@@ -146,7 +146,7 @@
         font-family:'Wotfard','Wotfard-fallback',sans-serif; 
         font-size: 1.3rem;
         font-weight: 400;
-        color: white;
+    
         line-height: 2.2rem;
     }
     .skills-experience-container{
@@ -208,7 +208,411 @@
     width: 500px;
 }
 }
+@media screen and  (max-width :767px){
+    .about-content-container{
+        padding: 2rem 3.6rem;
+        background-color: rgb(43, 119, 191);
+        box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .about-content{
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        font-size: 1rem;
+        font-weight: 400;
+     
+        line-height: 1.8rem;
+    }
+    .exp-lottie{
+        height:400px;
+        width: 400px;
+    }
+    .experience-section p{
+        text-transform: uppercase;
+        /* grid-column: 1/4; */
+        text-align: center;
+        color:hsl(333deg, 100%, 45%);
+        font-size: 1.6rem;
+        letter-spacing: 0.05rem;
+        font-weight: 600;
+        margin-bottom: 2.8rem;
+    }
+    .exp-des{
+        font-size: 1.4rem;
+        font-weight: 600;
+        
+    }
+    .overflow-exp{
+    
+        box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        transition: transform 400ms ease-out;
+        width: 100%;
+    
+        margin: 0 auto;
+    }
+    
+.exp-arrow{
+    position: absolute;
+    height: 50px;
+    width: 28px;
+    top: 5px;
+    right: 10px;
+}
+    .exp-company{
+        font-size:1.2rem;
+       
+    }
+    .exp-desc{
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+       
+        
+    }
+    .exp-date{
+        grid-row: 1/4;
+        font-size: 1rem;
+        font-weight: 600;
+        color:#222;
+        margin-top: 0.2rem
+        
+    }
+    .exp-tech{
+        list-style: none;
+        display: flex;
+        gap:1rem;
+        
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and  (max-width :680px){
+    
+    .about-content-container{
+        padding: 2rem 3.6rem;
+        background-color: rgb(43, 119, 191);
+        box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .about-content{
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+    .exp-des{
+        font-size: 1.2rem;
+        font-weight: 600;
+        
+    }
+    .exp-desc{
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.2rem;
+       
+        
+    }
+    .exp-company{
+        font-size:1rem;
+       
+    }
+    .exp-date{
+        grid-row: 1/4;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color:#222;
+        margin-top: 0.2rem
+        
+    }
+}
+@media screen and (max-width:630px){
+    .experience-section p{
+        font-size: 1.4rem;
+    }
+}
+@media screen and  (max-width :580px){
+    .expereince-card{
+        font-family:   'Wotfard','Wotfard-fallback',sans-serif; 
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap:1.6rem;
+        column-gap: 0rem;
+        padding:2rem;
+        padding-top: 1rem;
+        color:#222;
+        box-shadow: 0 0 2px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        position: relative;
+      
+        
+    }
+    .about-content-container{
+        padding: 2rem 3.6rem;
+        background-color: rgb(43, 119, 191);
+        box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .about-content{
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        font-size: 0.8rem;
+        font-weight: 400;
+    
+        line-height: 1.5rem;
+    }
+    .exp-des{
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+    .exp-arrow{
+        position: absolute;
+        height: 46px;
+        width: 23px;
+        top: 5px;
+        right: 10px;
+    }
+    .exp-desc{
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height: 1rem;
+       
+        
+    }
+    .exp-company{
+        font-size:0.8rem;
+       
+    }
+    .exp-date{
+        grid-row: 1/4;
+        font-size: 0.6rem;
+        font-weight: 600;
+        color:#222;
+        margin-top: 0.2rem
+        
+    }
+    .exp-tech{
+        list-style: none;
+        display: flex;
+        gap:1rem;
+     
+        font-size: 0.5rem;
+    }
+    .exp-tech li{
+        padding: 0.3rem 0.7rem;
+        background-color: rgb(43, 119, 191);
+        border-radius: 20px;
+        font-weight: 600;
+    }
+}
+@media screen and  (max-width :520px){
+    .about-content-container{
+        padding: 1.6rem 3rem;
+        background-color: rgb(43, 119, 191);
+        box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .about-content{
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        font-size: 0.6rem;
+        font-weight: 400;
+      
+        line-height: 1.2rem;
+    }
+}
+@media screen and  (max-width :460px){
+    .about-content-container{
+        padding: 1.4rem 2rem;
+        background-color: rgb(43, 119, 191);
+        box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .about-content{
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        font-size: 0.3rem;
+        font-weight: 400;
+      
+        line-height: 1.1rem;
+    }
+    .experience-section p{
+        text-transform: uppercase;
+        /* grid-column: 1/4; */
+        text-align: center;
+        color:hsl(333deg, 100%, 45%);
+        font-size: 1.2rem;
+        letter-spacing: 0.05rem;
+        font-weight: 600;
+        margin-bottom: 2.8rem;
+    }
+    .expereince-card{
+        font-family:   'Wotfard','Wotfard-fallback',sans-serif; 
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap:1.3rem;
+        column-gap: 0rem;
+        padding:1.1rem;
+        padding-top: 1rem;
+        color:#222;
+        box-shadow: 0 0 2px rgba(110, 110, 110, 0.5);
+        border-radius: 10px;
+        position: relative;
+      
+        
+    }
 
+    .exp-des{
+        font-size: 0.8rem;
+        font-weight: 600;
+        
+    }
+    .exp-arrow{
+        position: absolute;
+        height: 40px;
+        width: 20px;
+        top: 5px;
+        right: 10px;
+    }
+    .exp-desc{
+        font-size: 0.6rem;
+        font-weight: 500;
+        line-height: 0.9rem;
+        color:#666
+        
+    }
+    .exp-company{
+        font-size:0.7rem;
+       
+    }
+    .exp-date{
+        grid-row: 1/4;
+        font-size: 0.2rem;
+        font-weight: 600;
+        color:#222;
+        margin-top: 0.2rem
+        
+    }
+    .exp-tech{
+        list-style: none;
+        display: flex;
+        gap:0.5rem;
+
+        font-size: 0.4rem;
+    }
+    .exp-tech li{
+        padding: 0.3rem 0.5rem;
+        background-color: rgb(43, 119, 191);
+        border-radius: 20px;
+        font-weight: 600;
+    }
+    .exp-lottie{
+        height:300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:420px){
+
+    .about-content-container{
+        padding: 2rem 2.4rem;
+        background-color: rgb(43, 119, 191);
+        box-shadow: 0 5px 10px rgba(110, 110, 110, 0.5);
+        border-radius: 20px;
+        margin-bottom: 2rem;
+    }
+    .about-content{
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        font-size: 0.85rem;
+        font-weight: 400;
+        
+        line-height: 1.2rem;
+    }
+    
+.expereince-card{
+    font-family:   'Wotfard','Wotfard-fallback',sans-serif; 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:1rem;
+    column-gap: 0rem;
+    padding:2rem;
+    padding-top: 1rem;
+    color:#222;
+    box-shadow: 0 0 2px rgba(110, 110, 110, 0.5);
+    border-radius: 10px;
+    position: relative;
+  
+    
+}
+
+.exp-date{
+    grid-row: 1/1;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color:#222;
+    margin-top: 0.2rem
+    
+}
+.experience-section{
+   
+   
+}
+.experience-section p{
+    text-transform: uppercase;
+    /* grid-column: 1/4; */
+    text-align: center;
+    color:hsl(333deg, 100%, 45%);
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    margin-bottom: 2.8rem;
+}
+
+.exp-des{
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.exp-company{
+    font-size:0.8rem;
+   
+}
+.exp-desc{
+    grid-column: 1/3;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+ 
+
+    
+}
+.exp-arrow{
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    top: 10px;
+    right: 20px;
+}
+.exp-header{
+    grid-column: 1/-1;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap:0.2rem
+}
+.exp-tech{
+    font-size: 0.6rem;
+    grid-column: 1/-1;
+}
+.exp-tech li{
+    padding: 0.5rem 1rem;
+    background-color: rgb(43, 119, 191);
+    border-radius: 20px;
+    font-weight: 600;
+}
+}
 @media screen and (min-width:1000px) and (max-width :1199px){
     .about-content{
         font-family:'Wotfard','Wotfard-fallback',sans-serif; 

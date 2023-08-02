@@ -12,6 +12,7 @@
     justify-content: space-between;
     /* gap:10rem; */
     min-height: 100vh;
+    /* min-height: auto; */
     max-width: 90%;
 
 }
@@ -75,7 +76,8 @@
         border-radius:50%,
       
   }
-  @media screen and (min-width :768px) and (max-width:999px) {
+
+  @media screen and  (max-width:999px) {
 
 .hero-container{
 
@@ -89,7 +91,7 @@
    
    justify-content: space-between;
    /* gap:10rem; */
-   min-height: 90vh;
+   min-height: 80vh;
    max-width: 90%;
 
 }
@@ -128,7 +130,44 @@
     border-radius:50%,
   
 }
+
+
   }
+  @media screen and (max-width:767px) {
+    .social-icon{
+        width: 60px;
+        height: 24px;
+        cursor: pointer;
+        transition: transform 450ms ease-out;
+    }
+    .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        width:200px;
+        border-radius:50%,
+      
+    }
+    .intro-container{
+        order: 3;
+        flex:1;
+        margin-left: 2rem;
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        line-height: 3.2rem;
+    
+      font-weight: 500;
+      font-size: 1.6rem;
+      color: #222;
+    
+    }
+    .intro-name{
+        font-size:3rem ;
+        line-height: 3.2rem; 
+        letter-spacing: 0.02rem;
+        font-weight: bold;
+    }
+  }
+  
   @media screen and (min-width:1000px) and (max-width :1199px){
     .hero-container{
 

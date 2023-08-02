@@ -32,7 +32,7 @@ function AboutPage({ backgroundColor }) {
           className="skill-dark"
           skills={skills}
           expereinces={expereinces}
-          color="#fff"
+          color="#999"
         />
       ) : (
         <About

@@ -41,7 +41,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding: 1.6rem;
-    background-color: rgb(43, 119, 191);
+    background-color: #040109;
 }
 .chatbbot-form input{
     padding: 1rem 0;
@@ -69,7 +69,7 @@
 
 .chat-inputbox a{
     justify-self: flex-end;
-    background-color: rgb(43, 119, 191);
+    background-color: #040109;
     padding: 1rem 1.2rem;
     color: white;
     cursor: pointer;
@@ -97,7 +97,7 @@
 .bot-reply-container{
     margin:1.2rem;
     padding:1rem;
-    background-color: rgb(43, 119, 191);
+    background-color: #040109;
     font-size: 1rem;
     font-family:'Wotfard','Wotfard-fallback',sans-serif ;
     font-weight: 500;

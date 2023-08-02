@@ -20,7 +20,7 @@
     padding : 1.6rem 2rem;
     font-family: 'Wotfard','Wotfard-fallback',sans-serif;
     /* min-height: 100vh; */
-    min-height: 50vh;
+    /* min-height: 50vh; */
     
 }
 .my-skill-text{
@@ -65,13 +65,13 @@
   .swiper-skills-dark .swiper-button-next {
     color: rgb(176, 176, 216);
   }
-  @media screen and (min-width:768px) and (max-width :999px) {
+  @media screen and  (max-width :999px) {
 
     .skills-container{
     
       max-width: 90%;
       margin: 0 auto;
-      margin-top: 3rem;
+      margin-top: 6rem;
       padding : 1.6rem 2rem;
       font-family: 'Wotfard','Wotfard-fallback',sans-serif;
       /* min-height: 100vh; */
@@ -98,6 +98,19 @@
           height: 9rem;
        }
        
+  }
+  @media screen and (max-width:767px) {
+    .my-skill-text{
+      font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      color: hsl(333deg, 100%, 45%);
+      font-size: 1.6rem;
+      letter-spacing: 0.05rem;
+      font-weight: 600;
+      margin-right: 3rem;
+      margin-bottom: 4rem;
+  }
   }
   @media screen and (min-width:1000px) and (max-width :1199px) {
 

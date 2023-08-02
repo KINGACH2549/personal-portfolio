@@ -20,21 +20,22 @@
     gap:6rem;
     align-items: center; */
     /* margin-bottom: 1.5rem; */
-    padding:2rem;
+    padding:3rem;
     color:#222;
     font-size: 2.4rem;
 }
 .footer-message a{
     margin-top:1.8rem;
     display: inline-block;
-    background-color: blue;
+    background-color: #040109;
     padding: 1.2rem 1.8rem;
     color: white;
     border-radius: 10px;
     font-size: 1.4rem;
 }
 .footer-message a:hover{
-    background:linear-gradient(blue,rgb(11, 11, 148),blue);
+    /* background-color:#281b28; */
+    box-shadow: 0 2px 20px 4px #9c0e9c;
     cursor: pointer; 
 }
 
@@ -64,3 +65,74 @@
     
 }
 
+@media screen and (max-width:1370px) {
+    .footer{
+ 
+        /* background: linear-gradient(rgb(43,119,191),white,white,rgb(43, 119, 191)); */
+        background:#5c15e8!important;
+        margin-top: 9rem;
+        color:   white !important;
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+        padding:1rem;
+        padding-top: 1rem;   
+        padding-bottom: 1.4rem;
+        font-size:2rem;
+        font-weight: 600;
+     }
+
+.footer-message{
+    /* background-color: red; */
+    /* margin-left:10rem; */
+    
+    text-align: center;
+    /* display: flex;
+    gap:6rem;
+    align-items: center; */
+    /* margin-bottom: 1.5rem; */
+    padding:1rem;
+    color:#222;
+    font-size: 2.4rem;
+}
+     .footer-message h3{
+        /* background-color: red; */
+        /* margin-left:10rem; */
+        
+        text-align: center;
+        /* display: flex;
+        gap:6rem;
+        align-items: center; */
+        /* margin-bottom: 1.5rem; */
+        padding:1rem;
+        color:white !important;
+        font-size: 2.8rem;
+    }
+     
+.copyright-footer{
+    
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    align-items: center;
+     flex-direction: column;
+    font-weight: 500;
+    color: white !important;
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+}
+.mail-footer{
+    display: flex;
+    gap:0.2rem;
+}
+.mail-icon{
+    color: white !important;
+    align-self: center;
+}
+.copyright-footer a{
+ 
+    font-size: 1.2rem;
+    color: white !important;
+    font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    
+}
+}
