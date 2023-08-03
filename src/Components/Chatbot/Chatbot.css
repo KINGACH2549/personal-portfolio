@@ -116,7 +116,54 @@
     overflow-y: scroll;
     height: 70%
 }
-
+@media screen and (max-width:999px){
+    .chatbot-container{
+        width: 36%;
+        height: 74%;
+    }
+    .chat-inputbox textarea{
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width:767px){
+    .chatbot-container{
+        width: 50%;
+        height: 76%;
+    }
+    .chat-inputbox textarea{
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width:680px){
+    .chatbot-container{
+        width: 60%;
+        height: 70%;
+    }
+    .chat-inputbox textarea{
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width:540px){
+    .chatbot-container{
+        width: 70%;
+        height: 70%;
+    }
+    .chat-inputbox textarea{
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width:450px){
+    .chatbot-container{
+        bottom: 0;
+        right: 0;
+        
+        width: 90%;
+        height: 75%;
+    }
+    .chat-inputbox textarea{
+      font-size: 1rem;
+    }
+}
 @media screen and (min-width:1000px) and (max-width :1199px){
     .chatbot-container{
         width: 28%;

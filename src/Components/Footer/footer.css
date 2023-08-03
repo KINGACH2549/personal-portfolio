@@ -105,6 +105,7 @@
         padding:1rem;
         color:white !important;
         font-size: 2.8rem;
+        line-height: 3.8rem;
     }
      
 .copyright-footer{
@@ -135,4 +136,40 @@
     font-family: 'Wotfard','Wotfard-fallback',sans-serif;
     
 }
+}
+@media screen and (max-width:403px){
+    .footer-message h3{
+        /* background-color: red; */
+        /* margin-left:10rem; */
+        
+        text-align: center;
+        /* display: flex;
+        gap:6rem;
+        align-items: center; */
+        /* margin-bottom: 1.5rem; */
+        padding:1rem;
+        color:white !important;
+        font-size: 2.6rem;
+        line-height: 3.8rem;
+    }
+    .copyright-footer{
+    
+        font-size: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1rem;
+        align-items: center;
+         flex-direction: column;
+        font-weight: 500;
+        color: white !important;
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    }
+    .copyright-footer a{
+ 
+        font-size: 1rem;
+        color: white !important;
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+        
+    }
 }
