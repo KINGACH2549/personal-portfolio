@@ -81,21 +81,35 @@
     #html{
       height: 7rem;
       margin-top: 1.2rem;
-      margin-left:3rem;
+      margin-left:5rem;
     }
     #node-js{
         margin-top: 0;
         margin-left: 1rem;
-        height: 10rem;
+        height: 9rem;
     }
     #c{
         height: 7rem;
-        margin-top: 0.5rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-left: 4.4rem;
+    }
+    #postman{
+      margin-top: 1rem;
+      height: 7rem;
+    }
+    #react{
+      margin-top: 1rem;
+      height: 8rem;
+    }
+    #mongodb{
+      margin-top: 1rem;
+      height: 8rem;
     }
         .skill-icons{
           width: 90%;
           /* background-color: green; */
-          height: 9rem;
+          height: 8rem;
        }
        
   }
@@ -108,9 +122,271 @@
       font-size: 1.6rem;
       letter-spacing: 0.05rem;
       font-weight: 600;
-      margin-right: 3rem;
+      margin-left: 3rem;
       margin-bottom: 4rem;
   }
+  }
+  @media screen and (max-width:680px) {
+    .skills-container{
+    
+      max-width: 100%;
+      margin: 0 auto;
+      margin-top: 6rem;
+      padding : 1.6rem 2rem;
+      font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+      /* min-height: 100vh; */
+      min-height: 50vh;
+      
+  }
+  }
+  @media screen and (max-width:630px){
+    .my-skill-text{
+      font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      color: hsl(333deg, 100%, 45%);
+      font-size: 1.4rem;
+      letter-spacing: 0.05rem;
+      font-weight: 600;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+  }
+  }
+  @media screen and (max-width:620px){
+   .swiper-slide-active{
+
+    
+   
+   }
+   #html{
+    height: 10rem;
+    margin-top: 1.2rem;
+    margin-left:10rem;
+  }
+  #node-js{
+      margin-top: 0;
+      /* margin-left: 1rem; */
+      height: 11rem;
+      margin-right: 2rem;
+  }
+  #c{
+      height: 9rem;
+      margin: 0 auto;
+      margin-top: 1rem;
+      margin-left: 9rem;
+  }
+  #postman{
+    margin-top: 1rem;
+    height: 9rem;
+  }
+  #react{
+    margin-top: 1rem;
+    height: 10rem;
+  }
+  #mongodb{
+    margin-top: 1rem;
+    height: 10rem;
+  }
+      .skill-icons{
+        width: 100%;
+        /* background-color: green; */
+        height: 11rem;
+     }
+     
+    
+  }
+  @media screen and (max-width:590px){
+    
+    #html{
+      height: 10rem;
+      margin-top: 1.2rem;
+      margin-left:9rem;
+    }
+    #node-js{
+        margin-top: 1rem;
+        /* margin-left: 1rem; */
+        height: 11rem;
+        margin-right: 2rem;
+    }
+    #c{
+      margin-top: 1.2rem;
+    }
+  }
+  @media screen and (max-width:550px){
+    #html{
+      height: 10rem;
+      margin-top: 1.2rem;
+      margin-left:7.5rem;
+    }
+    
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 7.5rem;
+    }
+  }
+  @media screen and (max-width:550px){
+    #html{
+      height: 10rem;
+      margin-top: 1.2rem;
+      margin-left:6.5rem;
+    }
+    
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 6.5rem;
+    }
+  }
+  @media screen and (max-width:480px){
+    #node-js{
+      margin-top: 1rem;
+      /* margin-left: 1rem; */
+      height: 10rem;
+      margin-right: 2rem;
+  }
+    #html{
+      height: 8.5rem;
+      margin-top: 1.2rem;
+      margin-left:6rem;
+    }
+    
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 6rem;
+      height: 8rem;
+    }
+    #postman{
+      margin-top: 1rem;
+      height: 8rem;
+    }
+    #react{
+      margin-top: 1rem;
+      height: 9rem;
+    }
+    #mongodb{
+      margin-top: 1rem;
+      height: 9rem;
+    }
+        .skill-icons{
+          width: 100%;
+          /* background-color: green; */
+          height: 10rem;
+       }
+  }
+  @media screen and (max-width :460px){
+    .my-skill-text{
+      font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      color: hsl(333deg, 100%, 45%);
+      font-size: 1.2rem;
+      letter-spacing: 0.05rem;
+      font-weight: 600;
+      margin-left: 3rem;
+      margin-bottom: 4rem;
+  }
+    #html{
+      height: 8.5rem;
+      margin-top: 1.2rem;
+      margin-left:5rem;
+    }
+    
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 5rem;
+      height: 8rem;
+    }
+  }
+
+  @media screen and (max-width :420px){
+    
+    #html{
+      height: 6rem;
+      margin-top: 1.2rem;
+      margin-left:4.5rem;
+    }
+     
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 4rem;
+      height: 6rem;
+    }
+    #postman{
+      margin-top: 1rem;
+      height: 6rem;
+    }
+    #react{
+      margin-top: 1rem;
+      height: 7rem;
+    }
+    #mongodb{
+      margin-top: 1rem;
+      height: 7rem;
+    }
+        .skill-icons{
+          width: 100%;
+          /* background-color: green; */
+          height: 8rem;
+       }
+  }
+  @media screen and (max-width :400px){
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 4rem;
+      height: 6rem;
+    }
+    #node-js{
+
+      /* margin-left: 1rem; */
+      height: 8rem;
+      margin-right: 2rem;
+  }
+    #html{
+      height: 6.4rem;
+      margin-top: 1.4rem;
+      margin-left:4.5rem;
+    }
+     
+
+  }
+  @media screen and (max-width :380px){
+    #mysql{
+      margin-top: 0.5rem;
+    }
+    #c{
+      margin-top: 1.2rem;
+      margin-left: 3rem;
+      height: 5.5rem;
+    }
+    #postman{
+      margin-top: 1rem;
+      height: 5.5rem;
+    }
+    #mongodb{
+      margin-top: 1rem;
+      height: 6rem;
+    }
+    #react{
+      /* margin-top: 1rem; */
+      height: 6rem;
+    }
+    #node-js{
+
+    
+      height: 7rem;
+      margin-right: 2rem;
+  }
+    #html{
+      height: 6rem;
+      margin-top: 1.2rem;
+      margin-left:3rem;
+    }
+    .skill-icons{
+      width: 100%;
+      /* background-color: green; */
+      height: 7rem;
+   }
+     
+
   }
   @media screen and (min-width:1000px) and (max-width :1199px) {
 

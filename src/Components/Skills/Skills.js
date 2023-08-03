@@ -9,8 +9,15 @@ import "swiper/css/autoplay";
 import "./Skills.css";
 function Skills({ className }) {
   const [skills, setSkill] = useState([]);
+  const [width, setWidth] = useState(3);
+
   useEffect(() => {
-    //eslint-disable-next-line
+    if (window.innerWidth <= 999 && window.innerWidth > 620) {
+      setWidth(2);
+    } else if (window.innerWidth <= 620) {
+      setWidth(1);
+    }
+    // //eslint-disable-next-line
     setSkill([
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -330,7 +337,7 @@ function Skills({ className }) {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      slidesPerView={3}
+      slidesPerView={width}
       navigation
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       className={className}

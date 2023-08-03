@@ -56,7 +56,11 @@ function Navbar({
           </li>
         </ul>
 
-        <AiOutlineMenu className="menu-icon" onClick={handlemobilenav} />
+        <AiOutlineMenu
+          style={{ color }}
+          className="menu-icon"
+          onClick={handlemobilenav}
+        />
       </nav>
       {shownav && (
         <div className="mobile-nav">
