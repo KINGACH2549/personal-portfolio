@@ -173,3 +173,54 @@
         
     }
 }
+
+@media screen and (min-width:1700px){
+    .footer-message{
+        /* background-color: red; */
+        /* margin-left:10rem; */
+        
+        text-align: center;
+        /* display: flex;
+        gap:6rem;
+        align-items: center; */
+        /* margin-bottom: 1.5rem; */
+        padding:3rem;
+        color:#222;
+        font-size: 2.6rem;
+    }
+    .footer-message h3{
+        margin-bottom: 1.2rem;
+    }
+    .footer-message a{
+        margin-top:1.8rem;
+        display: inline-block;
+        background-color: #040109;
+        padding: 1.2rem 1.8rem;
+        color: white;
+        border-radius: 10px;
+        font-size: 1.6rem;
+    }
+    .copyright-footer{
+    
+        font-size: 1.5rem;
+        margin-top: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+       
+        font-weight: 500;
+        color: #222;
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+    }
+    .copyright-footer a{
+ 
+        font-size: 1.5rem;
+        color: #222;
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+        
+    }
+    .mail-footer{
+       
+        display: flex;
+        gap:0.5rem;
+    }
+}

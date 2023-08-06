@@ -9,6 +9,7 @@ function Navbar({
   themeIcon,
   backgroundColor,
   logo,
+  hover,
 }) {
   const [shownav, setshownav] = useState(false);
   const handlemobilenav = () => {
@@ -49,7 +50,7 @@ function Navbar({
             Achintya
           </a>
         </p>
-        <ul className="navbar-list">{renderLinks}</ul>
+        <ul className={`navbar-list ${hover}`}>{renderLinks}</ul>
         <ul className="navbar-list icon-list">
           <li onClick={() => changeBackgroundColor()} className="nav-icon">
             {themeIcon}
@@ -64,7 +65,7 @@ function Navbar({
       </nav>
       {shownav && (
         <div className="mobile-nav">
-          <ul className="navbar-list-mobile">
+          <ul className={`navbar-list-mobile ${hover}`}>
             <li onClick={() => changeBackgroundColor()} className="nav-icon">
               {themeIcon}
             </li>

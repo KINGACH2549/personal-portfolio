@@ -271,3 +271,28 @@
     }
 }
 
+@media screen and (min-width:1700px){
+    .project-container{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 10rem;
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+        /* min-height: 100vh; */
+    
+    }
+    .github-project a{
+        padding: 1rem 2rem;
+        border-radius: 30px;
+        font-size: 1.8rem;
+        color: white;
+        background-color: rgb(8, 108, 202);
+        cursor: pointer;
+    }
+    .project-desc{
+        font-size: 1.6rem;
+        padding: 1.4rem;
+        padding-top:0 ;
+        color: #222;
+        line-height: 2.6rem;
+    }
+}

@@ -19,9 +19,9 @@ function ProjectPage({ backgroundColor }) {
   return (
     <>
       {backgroundColor ? (
-        <Project projects={projects} color="white" />
+        <Project projects={projects} color="#999" />
       ) : (
-        <Project projects={projects} color="#222" />
+        <Project projects={projects} color="#444" />
       )}
     </>
   );

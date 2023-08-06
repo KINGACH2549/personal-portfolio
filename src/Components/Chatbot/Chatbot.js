@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import "./Chatbot.css";
+
 import Chats from "./Chats";
 function Chatbot({ handleChat, chatStatus }) {
   const [chats, setChats] = useState([{ text: null, isBot: true }]);

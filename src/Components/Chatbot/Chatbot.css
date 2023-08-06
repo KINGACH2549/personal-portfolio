@@ -78,7 +78,7 @@
     box-shadow:inset 0 0 2px rgba(110, 110, 110, 0.5);
 }
 .chat-inputbox a:hover{
-    background:linear-gradient(rgb(43, 119, 191),rgb(11, 11, 148),rgb(43, 119, 191));
+    background:#0f0224;
 }
 .chatbot-header p {
     padding: 0.3rem 0.5rem;
@@ -105,6 +105,29 @@
     border-radius: 20px;
    
 }
+.profile-handles{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-handles a{
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #e9e7e9;
+    border-radius: 30px;
+ 
+}
+
+
+.profile-links{
+    height: 100%;
+    width: 30px;
+    
+}
+
+
 .bot-reply{
     font-size: 1rem;
     font-family:'Wotfard','Wotfard-fallback',sans-serif ;
@@ -181,5 +204,21 @@
     }
     .chat-inputbox textarea{
       font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (min-width:1700px){
+    .chatbot-container{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width:23%;
+        height: 600px;
+        z-index: 999;
+       background-color: rgb(255, 255, 255);
+       box-shadow: 0 0 10px rgba(110, 110, 110, 0.5);
+       border-radius: 20px;
+       overflow: hidden;
     }
 }

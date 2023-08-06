@@ -15,6 +15,16 @@
     /* min-height: auto; */
     max-width: 90%;
 
+
+}
+.hero-container-light{
+  
+}
+.hero-container-dark{
+
+}
+.hero-container-dark :hover{
+  color: white !important;
 }
 .intro-container{
     
@@ -103,12 +113,12 @@
     line-height: 3.2rem;
 
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   color: #222;
 
 }
 .intro-name{
-    font-size:4rem ;
+    font-size:4.2rem ;
     line-height: 5rem; 
     letter-spacing: 0.02rem;
     font-weight: bold;
@@ -126,7 +136,7 @@
        
     opacity: 0;
     animation: lottieAnimation 1s ease forwards;
-    width:500px;
+    width:520px;
     border-radius:50%,
   
 }
@@ -144,7 +154,7 @@
        
         opacity: 0;
         animation: lottieAnimation 1s ease forwards;
-        width:200px;
+        width:400px;
         border-radius:50%,
       
     }
@@ -167,7 +177,91 @@
         font-weight: bold;
     }
   }
-  
+  @media screen and (max-width:511px){
+
+.hero-container{
+
+  margin:0 auto;
+
+ margin-top: 5rem;
+
+ display: flex;
+ align-items: center;
+
+ 
+ justify-content: space-between;
+ /* gap:10rem; */
+ min-height: 75vh;
+ /* min-height: auto; */
+ max-width: 90%;
+
+}
+    .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        width:350px;
+        border-radius:50%,
+      
+    }
+  }
+  @media screen and (max-width:455px){
+    .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        width:300px;
+        border-radius:50%,
+      
+    }
+    .social-icons-hero{
+   
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+      
+  }
+    .social-icon{
+      width: 50px;
+      height: 22px;
+      cursor: pointer;
+      transition: transform 450ms ease-out;
+  }
+  }
+  @media screen and (max-width:399px){
+    .lottie {
+       
+        opacity: 0;
+        animation: lottieAnimation 1s ease forwards;
+        width:260px;
+        border-radius:50%,
+      
+    }
+    .social-icon{
+      width: 48px;
+      height: 20px;
+      cursor: pointer;
+      transition: transform 450ms ease-out;
+  }
+    .intro-container{
+        order: 3;
+        flex:1;
+        margin-left: 2rem;
+        font-family:'Wotfard','Wotfard-fallback',sans-serif; 
+        line-height: 2.8rem;
+    
+      font-weight: 500;
+      font-size: 1.4rem;
+      color: #222;
+    
+    }
+    .intro-name{
+        font-size:2.8rem ;
+        line-height: 3.2rem; 
+        letter-spacing: 0.02rem;
+        font-weight: bold;
+    }
+  }
   @media screen and (min-width:1000px) and (max-width :1199px){
     .hero-container{
 
@@ -241,4 +335,33 @@
     cursor: pointer;
     transition: transform 450ms ease-out;
 }
+  }
+
+
+  @media screen and (min-width:1700px) {
+    .hero-container{
+
+        margin:0 auto;
+   
+       margin-top: 6rem;
+   
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       /* gap:10rem; */
+       min-height: 100vh;
+       max-width: 80%;
+   
+   }
+    .lottie{
+      width:700px;
+    }
+    .social-icons-hero{
+   
+      display: flex;
+      flex-direction: column;
+      gap: 2.6rem;
+      
+  }
+
   }

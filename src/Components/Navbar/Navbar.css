@@ -29,6 +29,18 @@
     justify-content: center;
 
 }
+.navbar-list-bright{
+
+}
+.navbar-list-bright :hover{
+    color: rgb(6, 90, 168) !important;
+}
+.navbar-list-dark{
+
+}
+.navbar-list-dark :hover{
+    color:white !important;
+}
 .mobile-nav{
     display: none;
 }
@@ -42,8 +54,11 @@
 
     font-family: 'Wotfard','Wotfard-fallback',sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600 !important;
     display: inline-block;
+}
+.nav-links :hover{
+    color: red !important;
 }
 
 .menu-icon{
@@ -210,5 +225,58 @@
     }
     .nav-icon{
         align-self: center;
+    }
+}
+
+@media screen and (min-width:1700px){
+    .nav-container{
+  
+        background-color: white; 
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        z-index: 1000;
+        padding:1.6rem 8rem;
+        padding-bottom: 0.5rem;
+     
+       
+    }
+    .logo-tail{
+        opacity: 0;
+        font-family: 'Dancing Script', cursive;
+    
+        letter-spacing: -1.5px;
+        font-weight: 600;
+        font-size: 3.8rem;
+        color:rgb(43, 119, 191);
+        animation-delay: 1s;
+        animation-name: delayedRender;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+        
+        
+    }
+    .navbar-list{
+   
+
+        list-style: none;
+        display: flex;
+        gap:6rem;
+        justify-content: center;
+    
+    }
+    .nav-links{
+        border: 0;
+      
+        cursor: pointer;
+        background-color: white;
+        letter-spacing: 0.1rem;
+    
+        font-family: 'Wotfard','Wotfard-fallback',sans-serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+        display: inline-block;
     }
 }

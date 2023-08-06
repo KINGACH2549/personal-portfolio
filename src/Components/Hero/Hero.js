@@ -2,9 +2,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import "./Hero.css";
 import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 
-function Hero({ color }) {
+function Hero({ color, hover }) {
   return (
-    <div id="hero-section" className="hero-container">
+    <div id="hero-section" className={`hero-container ${hover}`}>
       <Player
         src="https://assets8.lottiefiles.com/packages/lf20_gljfnvqz.json"
         // className=".lottie"

@@ -14,23 +14,32 @@ function NavPage({ backgroundColor, handleBackgroundColor }) {
         <Navbar
           navLinks={navLinks}
           changeBackgroundColor={handleBackgroundColor}
-          color="white"
+          color="#999"
           themeIcon={
             <MdOutlineNightlight
               className="custom-icon"
               style={{
-                color: "white",
+                color: "#999",
               }}
             />
           }
           backgroundColor="hsl(210deg, 30%, 8%)"
+          hover="navbar-list-dark"
         />
       ) : (
         <Navbar
           navLinks={navLinks}
           changeBackgroundColor={handleBackgroundColor}
-          color="#222"
-          themeIcon={<MdLightMode className="bright-icon" />}
+          color="#666"
+          themeIcon={
+            <MdLightMode
+              className="bright-icon"
+              style={{
+                color: "#444",
+              }}
+            />
+          }
+          hover="navbar-list-bright"
         />
       )}
     </>

@@ -39,7 +39,7 @@ function AboutPage({ backgroundColor }) {
           className="skills"
           skills={skills}
           expereinces={expereinces}
-          color="#222"
+          color="#444"
         />
       )}
     </>
