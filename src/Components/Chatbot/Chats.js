@@ -16,13 +16,25 @@ function Chats({ chat, isBot }) {
       {isBot && (
         <div className="profile-handles">
           <a href="https://www.linkedin.com/in/achintya-mishra-760604155">
-            <SiLinkedin className="profile-links" />
+            <SiLinkedin
+              className="profile-links"
+              target="_blank"
+              rel="noreferrer"
+            />
           </a>
           <a href="https://api.whatsapp.com/send?phone=7208648476&text=Hello%20there!">
-            <IoLogoWhatsapp className="profile-links" />
+            <IoLogoWhatsapp
+              className="profile-links"
+              target="_blank"
+              rel="noreferrer"
+            />
           </a>
           <a href="mailto:sciencerage802@gmail.com">
-            <BiLogoGmail className="profile-links" />
+            <BiLogoGmail
+              className="profile-links"
+              target="_blank"
+              rel="noreferrer"
+            />
           </a>
         </div>
       )}
