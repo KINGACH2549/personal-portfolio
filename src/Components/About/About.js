@@ -5,22 +5,29 @@ import { BsArrowUpRight } from "react-icons/bs";
 function About({ skills, className, expereinces, color }) {
   const experienceCards = expereinces.map((experience) => {
     return (
-      <div className="expereince-card" style={{ color }}>
-        <header className="exp-date" style={{ color }}>
-          {experience.fromdate}-{experience.todate}
-        </header>
-        <div className="exp-header">
-          <h3 className="exp-des">{experience.designation}</h3>
-          <h4 className="exp-company">{experience.company}</h4>
+      <a
+        style={{ display: "block" }}
+        href="https://drive.google.com/file/d/1FqkoK2Qw341d0dn2UZFGvR9rcB0PCqB1/view"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="expereince-card" style={{ color }}>
+          <header className="exp-date" style={{ color }}>
+            {experience.fromdate}-{experience.todate}
+          </header>
+          <div className="exp-header">
+            <h3 className="exp-des">{experience.designation}</h3>
+            <h4 className="exp-company">{experience.company}</h4>
+          </div>
+          <BsArrowUpRight className="exp-arrow" />
+          <div className="exp-desc">{experience.Description}</div>
+          <ul className="exp-tech">
+            {experience.TechStack.map((skill) => {
+              return <li>{skill}</li>;
+            })}
+          </ul>
         </div>
-        <BsArrowUpRight className="exp-arrow" />
-        <div className="exp-desc">{experience.Description}</div>
-        <ul className="exp-tech">
-          {experience.TechStack.map((skill) => {
-            return <li>{skill}</li>;
-          })}
-        </ul>
-      </div>
+      </a>
     );
   });
   return (
