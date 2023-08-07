@@ -41,7 +41,7 @@ function Hero({ color, hover }) {
           <SiLinkedin className="social-icon" style={{ color }} />
         </a>
         <a
-          href="https://github.com/KINGACH2549"
+          href="https://www.instagram.com/achintya._.mishra"
           target="_blank"
           rel="noreferrer"
           className="social-icon-link"

@@ -19,7 +19,7 @@ function ProjectPage({ backgroundColor }) {
     {
       name: "Weather App",
       desc: "Real time weather report globally made with express , the data is fetched using Geocode API.",
-      link: "https://github.com/KINGACH2549/Emotion_detector_using_CNN",
+      link: "https://github.com/KINGACH2549/weather-project",
       img: weatherImage,
     },
   ];
